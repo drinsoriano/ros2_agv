@@ -1,0 +1,149 @@
+[0.873s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'ddsm115_driver']
+[0.874s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['ddsm115_driver'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff93f06f80>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff94040430>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff94040430>>)
+[2.447s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.448s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.449s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.449s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.450s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[2.450s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.451s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/circuitcoder1101/ros2_agv'
+[2.451s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[2.452s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[2.453s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[2.453s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[2.453s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[2.454s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[2.454s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[2.455s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[2.456s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[2.546s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[2.546s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[2.547s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[2.548s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[2.549s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[2.550s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[2.551s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[2.551s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[2.552s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[2.553s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[2.554s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[2.555s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[2.556s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[2.557s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[2.557s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[2.558s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[2.558s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[2.559s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[2.559s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[2.559s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[2.559s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[2.559s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[2.560s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[2.560s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[2.561s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[2.561s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[2.562s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[2.562s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[2.563s] Level 1:colcon.colcon_core.package_identification:_identify(src/ddsm115_driver) by extensions ['ignore', 'ignore_ament_install']
+[2.564s] Level 1:colcon.colcon_core.package_identification:_identify(src/ddsm115_driver) by extension 'ignore'
+[2.564s] Level 1:colcon.colcon_core.package_identification:_identify(src/ddsm115_driver) by extension 'ignore_ament_install'
+[2.565s] Level 1:colcon.colcon_core.package_identification:_identify(src/ddsm115_driver) by extensions ['colcon_pkg']
+[2.565s] Level 1:colcon.colcon_core.package_identification:_identify(src/ddsm115_driver) by extension 'colcon_pkg'
+[2.566s] Level 1:colcon.colcon_core.package_identification:_identify(src/ddsm115_driver) by extensions ['colcon_meta']
+[2.566s] Level 1:colcon.colcon_core.package_identification:_identify(src/ddsm115_driver) by extension 'colcon_meta'
+[2.566s] Level 1:colcon.colcon_core.package_identification:_identify(src/ddsm115_driver) by extensions ['ros']
+[2.566s] Level 1:colcon.colcon_core.package_identification:_identify(src/ddsm115_driver) by extension 'ros'
+[2.586s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ddsm115_driver' with type 'ros.ament_python' and name 'ddsm115_driver'
+[2.588s] Level 1:colcon.colcon_core.package_identification:_identify(src/keyboard_control) by extensions ['ignore', 'ignore_ament_install']
+[2.590s] Level 1:colcon.colcon_core.package_identification:_identify(src/keyboard_control) by extension 'ignore'
+[2.591s] Level 1:colcon.colcon_core.package_identification:_identify(src/keyboard_control) by extension 'ignore_ament_install'
+[2.592s] Level 1:colcon.colcon_core.package_identification:_identify(src/keyboard_control) by extensions ['colcon_pkg']
+[2.592s] Level 1:colcon.colcon_core.package_identification:_identify(src/keyboard_control) by extension 'colcon_pkg'
+[2.593s] Level 1:colcon.colcon_core.package_identification:_identify(src/keyboard_control) by extensions ['colcon_meta']
+[2.594s] Level 1:colcon.colcon_core.package_identification:_identify(src/keyboard_control) by extension 'colcon_meta'
+[2.595s] Level 1:colcon.colcon_core.package_identification:_identify(src/keyboard_control) by extensions ['ros']
+[2.596s] Level 1:colcon.colcon_core.package_identification:_identify(src/keyboard_control) by extension 'ros'
+[2.603s] DEBUG:colcon.colcon_core.package_identification:Package 'src/keyboard_control' with type 'ros.ament_python' and name 'keyboard_control'
+[2.605s] Level 1:colcon.colcon_core.package_identification:_identify(src/ws2812b_controller) by extensions ['ignore', 'ignore_ament_install']
+[2.606s] Level 1:colcon.colcon_core.package_identification:_identify(src/ws2812b_controller) by extension 'ignore'
+[2.606s] Level 1:colcon.colcon_core.package_identification:_identify(src/ws2812b_controller) by extension 'ignore_ament_install'
+[2.607s] Level 1:colcon.colcon_core.package_identification:_identify(src/ws2812b_controller) by extensions ['colcon_pkg']
+[2.607s] Level 1:colcon.colcon_core.package_identification:_identify(src/ws2812b_controller) by extension 'colcon_pkg'
+[2.607s] Level 1:colcon.colcon_core.package_identification:_identify(src/ws2812b_controller) by extensions ['colcon_meta']
+[2.607s] Level 1:colcon.colcon_core.package_identification:_identify(src/ws2812b_controller) by extension 'colcon_meta'
+[2.607s] Level 1:colcon.colcon_core.package_identification:_identify(src/ws2812b_controller) by extensions ['ros']
+[2.608s] Level 1:colcon.colcon_core.package_identification:_identify(src/ws2812b_controller) by extension 'ros'
+[2.613s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ws2812b_controller' with type 'ros.ament_python' and name 'ws2812b_controller'
+[2.614s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.614s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.615s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.615s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.615s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.758s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'keyboard_control' in 'src/keyboard_control'
+[2.759s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'ws2812b_controller' in 'src/ws2812b_controller'
+[2.765s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[2.765s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[2.782s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/circuitcoder1101/ros2_agv/install
+[2.793s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 271 installed packages in /opt/ros/humble
+[2.814s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[3.188s] Level 5:colcon.colcon_core.verb:set package 'ddsm115_driver' build argument 'cmake_args' from command line to 'None'
+[3.189s] Level 5:colcon.colcon_core.verb:set package 'ddsm115_driver' build argument 'cmake_target' from command line to 'None'
+[3.189s] Level 5:colcon.colcon_core.verb:set package 'ddsm115_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.189s] Level 5:colcon.colcon_core.verb:set package 'ddsm115_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[3.189s] Level 5:colcon.colcon_core.verb:set package 'ddsm115_driver' build argument 'cmake_clean_first' from command line to 'False'
+[3.190s] Level 5:colcon.colcon_core.verb:set package 'ddsm115_driver' build argument 'cmake_force_configure' from command line to 'False'
+[3.190s] Level 5:colcon.colcon_core.verb:set package 'ddsm115_driver' build argument 'ament_cmake_args' from command line to 'None'
+[3.190s] Level 5:colcon.colcon_core.verb:set package 'ddsm115_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[3.190s] Level 5:colcon.colcon_core.verb:set package 'ddsm115_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.191s] DEBUG:colcon.colcon_core.verb:Building package 'ddsm115_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/circuitcoder1101/ros2_agv/build/ddsm115_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/circuitcoder1101/ros2_agv/install/ddsm115_driver', 'merge_install': False, 'path': '/home/circuitcoder1101/ros2_agv/src/ddsm115_driver', 'symlink_install': False, 'test_result_base': None}
+[3.193s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[3.199s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[3.202s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/circuitcoder1101/ros2_agv/src/ddsm115_driver' with build type 'ament_python'
+[3.207s] Level 1:colcon.colcon_core.shell:create_environment_hook('ddsm115_driver', 'ament_prefix_path')
+[3.231s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[3.233s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/circuitcoder1101/ros2_agv/install/ddsm115_driver/share/ddsm115_driver/hook/ament_prefix_path.ps1'
+[3.241s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/circuitcoder1101/ros2_agv/install/ddsm115_driver/share/ddsm115_driver/hook/ament_prefix_path.dsv'
+[3.246s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/circuitcoder1101/ros2_agv/install/ddsm115_driver/share/ddsm115_driver/hook/ament_prefix_path.sh'
+[3.253s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.253s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.878s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/circuitcoder1101/ros2_agv/src/ddsm115_driver'
+[5.881s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.881s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[9.163s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/circuitcoder1101/ros2_agv/src/ddsm115_driver': PYTHONPATH=/home/circuitcoder1101/ros2_agv/build/ddsm115_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/circuitcoder1101/ros2_agv/install/ddsm115_driver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ddsm115_driver build --build-base /home/circuitcoder1101/ros2_agv/build/ddsm115_driver/build install --record /home/circuitcoder1101/ros2_agv/build/ddsm115_driver/install.log --single-version-externally-managed install_data
+[12.142s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/circuitcoder1101/ros2_agv/src/ddsm115_driver' returned '0': PYTHONPATH=/home/circuitcoder1101/ros2_agv/build/ddsm115_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/circuitcoder1101/ros2_agv/install/ddsm115_driver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ddsm115_driver build --build-base /home/circuitcoder1101/ros2_agv/build/ddsm115_driver/build install --record /home/circuitcoder1101/ros2_agv/build/ddsm115_driver/install.log --single-version-externally-managed install_data
+[12.169s] Level 1:colcon.colcon_core.environment:checking '/home/circuitcoder1101/ros2_agv/install/ddsm115_driver' for CMake module files
+[12.172s] Level 1:colcon.colcon_core.environment:checking '/home/circuitcoder1101/ros2_agv/install/ddsm115_driver' for CMake config files
+[12.178s] Level 1:colcon.colcon_core.environment:checking '/home/circuitcoder1101/ros2_agv/install/ddsm115_driver/lib'
+[12.180s] Level 1:colcon.colcon_core.environment:checking '/home/circuitcoder1101/ros2_agv/install/ddsm115_driver/bin'
+[12.181s] Level 1:colcon.colcon_core.environment:checking '/home/circuitcoder1101/ros2_agv/install/ddsm115_driver/lib/pkgconfig/ddsm115_driver.pc'
+[12.182s] Level 1:colcon.colcon_core.environment:checking '/home/circuitcoder1101/ros2_agv/install/ddsm115_driver/lib/python3.10/site-packages'
+[12.183s] Level 1:colcon.colcon_core.shell:create_environment_hook('ddsm115_driver', 'pythonpath')
+[12.185s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/circuitcoder1101/ros2_agv/install/ddsm115_driver/share/ddsm115_driver/hook/pythonpath.ps1'
+[12.192s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/circuitcoder1101/ros2_agv/install/ddsm115_driver/share/ddsm115_driver/hook/pythonpath.dsv'
+[12.201s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/circuitcoder1101/ros2_agv/install/ddsm115_driver/share/ddsm115_driver/hook/pythonpath.sh'
+[12.208s] Level 1:colcon.colcon_core.environment:checking '/home/circuitcoder1101/ros2_agv/install/ddsm115_driver/bin'
+[12.209s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ddsm115_driver)
+[12.210s] INFO:colcon.colcon_core.shell:Creating package script '/home/circuitcoder1101/ros2_agv/install/ddsm115_driver/share/ddsm115_driver/package.ps1'
+[12.217s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/circuitcoder1101/ros2_agv/install/ddsm115_driver/share/ddsm115_driver/package.dsv'
+[12.226s] INFO:colcon.colcon_core.shell:Creating package script '/home/circuitcoder1101/ros2_agv/install/ddsm115_driver/share/ddsm115_driver/package.sh'
+[12.237s] INFO:colcon.colcon_core.shell:Creating package script '/home/circuitcoder1101/ros2_agv/install/ddsm115_driver/share/ddsm115_driver/package.bash'
+[12.245s] INFO:colcon.colcon_core.shell:Creating package script '/home/circuitcoder1101/ros2_agv/install/ddsm115_driver/share/ddsm115_driver/package.zsh'
+[12.253s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/circuitcoder1101/ros2_agv/install/ddsm115_driver/share/colcon-core/packages/ddsm115_driver)
+[12.256s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[12.262s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[12.263s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[12.263s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[12.314s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[12.316s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[12.317s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[12.448s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[12.449s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/circuitcoder1101/ros2_agv/install/local_setup.ps1'
+[12.454s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/circuitcoder1101/ros2_agv/install/_local_setup_util_ps1.py'
+[12.461s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/circuitcoder1101/ros2_agv/install/setup.ps1'
+[12.477s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/circuitcoder1101/ros2_agv/install/local_setup.sh'
+[12.485s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/circuitcoder1101/ros2_agv/install/_local_setup_util_sh.py'
+[12.493s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/circuitcoder1101/ros2_agv/install/setup.sh'
+[12.502s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/circuitcoder1101/ros2_agv/install/local_setup.bash'
+[12.508s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/circuitcoder1101/ros2_agv/install/setup.bash'
+[12.517s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/circuitcoder1101/ros2_agv/install/local_setup.zsh'
+[12.520s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/circuitcoder1101/ros2_agv/install/setup.zsh'

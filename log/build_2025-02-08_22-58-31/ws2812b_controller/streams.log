@@ -1,0 +1,36 @@
+[5.793s] Invoking command in '/home/circuitcoder1101/ros2_agv/src/ws2812b_controller': PYTHONPATH=/home/circuitcoder1101/ros2_agv/build/ws2812b_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/circuitcoder1101/ros2_agv/install/ws2812b_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ws2812b_controller build --build-base /home/circuitcoder1101/ros2_agv/build/ws2812b_controller/build install --record /home/circuitcoder1101/ros2_agv/build/ws2812b_controller/install.log --single-version-externally-managed install_data
+[7.929s] running egg_info
+[7.932s] creating ../../build/ws2812b_controller/ws2812b_controller.egg-info
+[7.933s] writing ../../build/ws2812b_controller/ws2812b_controller.egg-info/PKG-INFO
+[7.941s] writing dependency_links to ../../build/ws2812b_controller/ws2812b_controller.egg-info/dependency_links.txt
+[7.944s] writing entry points to ../../build/ws2812b_controller/ws2812b_controller.egg-info/entry_points.txt
+[7.948s] writing requirements to ../../build/ws2812b_controller/ws2812b_controller.egg-info/requires.txt
+[7.949s] writing top-level names to ../../build/ws2812b_controller/ws2812b_controller.egg-info/top_level.txt
+[7.950s] writing manifest file '../../build/ws2812b_controller/ws2812b_controller.egg-info/SOURCES.txt'
+[7.962s] reading manifest file '../../build/ws2812b_controller/ws2812b_controller.egg-info/SOURCES.txt'
+[7.968s] writing manifest file '../../build/ws2812b_controller/ws2812b_controller.egg-info/SOURCES.txt'
+[7.969s] running build
+[7.971s] running build_py
+[7.972s] creating /home/circuitcoder1101/ros2_agv/build/ws2812b_controller/build
+[7.973s] creating /home/circuitcoder1101/ros2_agv/build/ws2812b_controller/build/lib
+[7.975s] creating /home/circuitcoder1101/ros2_agv/build/ws2812b_controller/build/lib/ws2812b_controller
+[7.976s] copying ws2812b_controller/ws2812b_node.py -> /home/circuitcoder1101/ros2_agv/build/ws2812b_controller/build/lib/ws2812b_controller
+[7.987s] copying ws2812b_controller/__init__.py -> /home/circuitcoder1101/ros2_agv/build/ws2812b_controller/build/lib/ws2812b_controller
+[7.988s] running install
+[7.998s] running install_lib
+[8.002s] creating /home/circuitcoder1101/ros2_agv/install/ws2812b_controller/lib/python3.10/site-packages/ws2812b_controller
+[8.004s] copying /home/circuitcoder1101/ros2_agv/build/ws2812b_controller/build/lib/ws2812b_controller/ws2812b_node.py -> /home/circuitcoder1101/ros2_agv/install/ws2812b_controller/lib/python3.10/site-packages/ws2812b_controller
+[8.010s] copying /home/circuitcoder1101/ros2_agv/build/ws2812b_controller/build/lib/ws2812b_controller/__init__.py -> /home/circuitcoder1101/ros2_agv/install/ws2812b_controller/lib/python3.10/site-packages/ws2812b_controller
+[8.012s] byte-compiling /home/circuitcoder1101/ros2_agv/install/ws2812b_controller/lib/python3.10/site-packages/ws2812b_controller/ws2812b_node.py to ws2812b_node.cpython-310.pyc
+[8.016s] byte-compiling /home/circuitcoder1101/ros2_agv/install/ws2812b_controller/lib/python3.10/site-packages/ws2812b_controller/__init__.py to __init__.cpython-310.pyc
+[8.018s] running install_data
+[8.019s] creating /home/circuitcoder1101/ros2_agv/install/ws2812b_controller/share/ament_index
+[8.023s] creating /home/circuitcoder1101/ros2_agv/install/ws2812b_controller/share/ament_index/resource_index
+[8.026s] creating /home/circuitcoder1101/ros2_agv/install/ws2812b_controller/share/ament_index/resource_index/packages
+[8.028s] copying resource/ws2812b_controller -> /home/circuitcoder1101/ros2_agv/install/ws2812b_controller/share/ament_index/resource_index/packages
+[8.029s] copying package.xml -> /home/circuitcoder1101/ros2_agv/install/ws2812b_controller/share/ws2812b_controller
+[8.030s] running install_egg_info
+[8.044s] Copying ../../build/ws2812b_controller/ws2812b_controller.egg-info to /home/circuitcoder1101/ros2_agv/install/ws2812b_controller/lib/python3.10/site-packages/ws2812b_controller-0.0.0-py3.10.egg-info
+[8.052s] running install_scripts
+[8.228s] writing list of installed files to '/home/circuitcoder1101/ros2_agv/build/ws2812b_controller/install.log'
+[8.569s] Invoked command in '/home/circuitcoder1101/ros2_agv/src/ws2812b_controller' returned '0': PYTHONPATH=/home/circuitcoder1101/ros2_agv/build/ws2812b_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/circuitcoder1101/ros2_agv/install/ws2812b_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ws2812b_controller build --build-base /home/circuitcoder1101/ros2_agv/build/ws2812b_controller/build install --record /home/circuitcoder1101/ros2_agv/build/ws2812b_controller/install.log --single-version-externally-managed install_data

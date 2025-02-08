@@ -1,0 +1,120 @@
+[0.000000] (-) TimerEvent: {}
+[0.008505] (-) JobUnselected: {'identifier': 'keyboard_control'}
+[0.009151] (-) JobUnselected: {'identifier': 'ws2812b_controller'}
+[0.010007] (ddsm115_driver) JobQueued: {'identifier': 'ddsm115_driver', 'dependencies': OrderedDict()}
+[0.010362] (ddsm115_driver) JobStarted: {'identifier': 'ddsm115_driver'}
+[0.100651] (-) TimerEvent: {}
+[0.202589] (-) TimerEvent: {}
+[0.306362] (-) TimerEvent: {}
+[0.408982] (-) TimerEvent: {}
+[0.510243] (-) TimerEvent: {}
+[0.611662] (-) TimerEvent: {}
+[0.713485] (-) TimerEvent: {}
+[0.815151] (-) TimerEvent: {}
+[0.916437] (-) TimerEvent: {}
+[1.018372] (-) TimerEvent: {}
+[1.119713] (-) TimerEvent: {}
+[1.221096] (-) TimerEvent: {}
+[1.322586] (-) TimerEvent: {}
+[1.424798] (-) TimerEvent: {}
+[1.527234] (-) TimerEvent: {}
+[1.628624] (-) TimerEvent: {}
+[1.729980] (-) TimerEvent: {}
+[1.832169] (-) TimerEvent: {}
+[1.934817] (-) TimerEvent: {}
+[2.036602] (-) TimerEvent: {}
+[2.137807] (-) TimerEvent: {}
+[2.239515] (-) TimerEvent: {}
+[2.341395] (-) TimerEvent: {}
+[2.443241] (-) TimerEvent: {}
+[2.545718] (-) TimerEvent: {}
+[2.648122] (-) TimerEvent: {}
+[2.750551] (-) TimerEvent: {}
+[2.852792] (-) TimerEvent: {}
+[2.954504] (-) TimerEvent: {}
+[3.055833] (-) TimerEvent: {}
+[3.157401] (-) TimerEvent: {}
+[3.258820] (-) TimerEvent: {}
+[3.360674] (-) TimerEvent: {}
+[3.462902] (-) TimerEvent: {}
+[3.565203] (-) TimerEvent: {}
+[3.666786] (-) TimerEvent: {}
+[3.767911] (-) TimerEvent: {}
+[3.869260] (-) TimerEvent: {}
+[3.970873] (-) TimerEvent: {}
+[4.072312] (-) TimerEvent: {}
+[4.173502] (-) TimerEvent: {}
+[4.274939] (-) TimerEvent: {}
+[4.376357] (-) TimerEvent: {}
+[4.477635] (-) TimerEvent: {}
+[4.581666] (-) TimerEvent: {}
+[4.682867] (-) TimerEvent: {}
+[4.784289] (-) TimerEvent: {}
+[4.886402] (-) TimerEvent: {}
+[4.988295] (-) TimerEvent: {}
+[5.089898] (-) TimerEvent: {}
+[5.194794] (-) TimerEvent: {}
+[5.296194] (-) TimerEvent: {}
+[5.397645] (-) TimerEvent: {}
+[5.499168] (-) TimerEvent: {}
+[5.601587] (-) TimerEvent: {}
+[5.705303] (-) TimerEvent: {}
+[5.809192] (-) TimerEvent: {}
+[5.913503] (-) TimerEvent: {}
+[5.962422] (ddsm115_driver) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/ddsm115_driver', 'build', '--build-base', '/home/circuitcoder1101/ros2_agv/build/ddsm115_driver/build', 'install', '--record', '/home/circuitcoder1101/ros2_agv/build/ddsm115_driver/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/circuitcoder1101/ros2_agv/src/ddsm115_driver', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_PH:en', 'USER': 'circuitcoder1101', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/circuitcoder1101', 'OLDPWD': '/home/circuitcoder1101/ros2_agv', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1462', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/circuitcoder1101/ros2_agv/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'circuitcoder1101', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'circuitcoder1101', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/circuitcoder1101/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/circuitcoder1101-desktop:@/tmp/.ICE-unix/1437,unix/circuitcoder1101-desktop:/tmp/.ICE-unix/1437', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/d135b26d_c338_45a5_add1_0db9aebb3e39', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.RIDX12', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.108', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/circuitcoder1101/ros2_agv/install/keyboard_control:/home/circuitcoder1101/ros2_agv/install/ddsm115_driver:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/circuitcoder1101/ros2_agv/build/ddsm115_driver', 'LC_ALL': 'en_US.UTF.8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/circuitcoder1101/ros2_agv/build/ddsm115_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/circuitcoder1101/ros2_agv/install/ddsm115_driver/lib/python3.10/site-packages:/home/circuitcoder1101/ros2_agv/install/keyboard_control/lib/python3.10/site-packages:/home/circuitcoder1101/ros2_agv/install/ddsm115_driver/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[6.013942] (-) TimerEvent: {}
+[6.115930] (-) TimerEvent: {}
+[6.217457] (-) TimerEvent: {}
+[6.318761] (-) TimerEvent: {}
+[6.420190] (-) TimerEvent: {}
+[6.521759] (-) TimerEvent: {}
+[6.623532] (-) TimerEvent: {}
+[6.725682] (-) TimerEvent: {}
+[6.829192] (-) TimerEvent: {}
+[6.930943] (-) TimerEvent: {}
+[7.032163] (-) TimerEvent: {}
+[7.133666] (-) TimerEvent: {}
+[7.234848] (-) TimerEvent: {}
+[7.336976] (-) TimerEvent: {}
+[7.438567] (-) TimerEvent: {}
+[7.540520] (-) TimerEvent: {}
+[7.642676] (-) TimerEvent: {}
+[7.744620] (-) TimerEvent: {}
+[7.846430] (-) TimerEvent: {}
+[7.947522] (-) TimerEvent: {}
+[8.049007] (-) TimerEvent: {}
+[8.150225] (-) TimerEvent: {}
+[8.239373] (ddsm115_driver) StdoutLine: {'line': b'running egg_info\n'}
+[8.244343] (ddsm115_driver) StdoutLine: {'line': b'writing ../../build/ddsm115_driver/ddsm115_driver.egg-info/PKG-INFO\n'}
+[8.247507] (ddsm115_driver) StdoutLine: {'line': b'writing dependency_links to ../../build/ddsm115_driver/ddsm115_driver.egg-info/dependency_links.txt\n'}
+[8.250008] (ddsm115_driver) StdoutLine: {'line': b'writing entry points to ../../build/ddsm115_driver/ddsm115_driver.egg-info/entry_points.txt\n'}
+[8.250897] (-) TimerEvent: {}
+[8.252894] (ddsm115_driver) StdoutLine: {'line': b'writing requirements to ../../build/ddsm115_driver/ddsm115_driver.egg-info/requires.txt\n'}
+[8.254322] (ddsm115_driver) StdoutLine: {'line': b'writing top-level names to ../../build/ddsm115_driver/ddsm115_driver.egg-info/top_level.txt\n'}
+[8.270690] (ddsm115_driver) StdoutLine: {'line': b"reading manifest file '../../build/ddsm115_driver/ddsm115_driver.egg-info/SOURCES.txt'\n"}
+[8.273381] (ddsm115_driver) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[8.280278] (ddsm115_driver) StdoutLine: {'line': b"writing manifest file '../../build/ddsm115_driver/ddsm115_driver.egg-info/SOURCES.txt'\n"}
+[8.282265] (ddsm115_driver) StdoutLine: {'line': b'running build\n'}
+[8.284137] (ddsm115_driver) StdoutLine: {'line': b'running build_py\n'}
+[8.285539] (ddsm115_driver) StdoutLine: {'line': b'copying ddsm115_driver/ddsm115_node.py -> /home/circuitcoder1101/ros2_agv/build/ddsm115_driver/build/lib/ddsm115_driver\n'}
+[8.290978] (ddsm115_driver) StdoutLine: {'line': b'running install\n'}
+[8.299164] (ddsm115_driver) StdoutLine: {'line': b'running install_lib\n'}
+[8.301051] (ddsm115_driver) StdoutLine: {'line': b'copying /home/circuitcoder1101/ros2_agv/build/ddsm115_driver/build/lib/ddsm115_driver/ddsm115_node.py -> /home/circuitcoder1101/ros2_agv/install/ddsm115_driver/lib/python3.10/site-packages/ddsm115_driver\n'}
+[8.312582] (ddsm115_driver) StdoutLine: {'line': b'byte-compiling /home/circuitcoder1101/ros2_agv/install/ddsm115_driver/lib/python3.10/site-packages/ddsm115_driver/ddsm115_node.py to ddsm115_node.cpython-310.pyc\n'}
+[8.324577] (ddsm115_driver) StdoutLine: {'line': b'running install_data\n'}
+[8.329633] (ddsm115_driver) StdoutLine: {'line': b'running install_egg_info\n'}
+[8.342979] (ddsm115_driver) StdoutLine: {'line': b"removing '/home/circuitcoder1101/ros2_agv/install/ddsm115_driver/lib/python3.10/site-packages/ddsm115_driver-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[8.348106] (ddsm115_driver) StdoutLine: {'line': b'Copying ../../build/ddsm115_driver/ddsm115_driver.egg-info to /home/circuitcoder1101/ros2_agv/install/ddsm115_driver/lib/python3.10/site-packages/ddsm115_driver-0.0.0-py3.10.egg-info\n'}
+[8.351135] (-) TimerEvent: {}
+[8.360090] (ddsm115_driver) StdoutLine: {'line': b'running install_scripts\n'}
+[8.451518] (-) TimerEvent: {}
+[8.539888] (ddsm115_driver) StdoutLine: {'line': b'Installing ddsm115_node script to /home/circuitcoder1101/ros2_agv/install/ddsm115_driver/lib/ddsm115_driver\n'}
+[8.543733] (ddsm115_driver) StdoutLine: {'line': b"writing list of installed files to '/home/circuitcoder1101/ros2_agv/build/ddsm115_driver/install.log'\n"}
+[8.552739] (-) TimerEvent: {}
+[8.655986] (-) TimerEvent: {}
+[8.759491] (-) TimerEvent: {}
+[8.863385] (-) TimerEvent: {}
+[8.921646] (ddsm115_driver) CommandEnded: {'returncode': 0}
+[8.964205] (-) TimerEvent: {}
+[9.033132] (ddsm115_driver) JobEnded: {'identifier': 'ddsm115_driver', 'rc': 0}
+[9.040064] (-) EventReactorShutdown: {}

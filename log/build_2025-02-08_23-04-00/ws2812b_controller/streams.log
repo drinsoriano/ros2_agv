@@ -1,0 +1,21 @@
+[6.157s] Invoking command in '/home/circuitcoder1101/ros2_agv/src/ws2812b_controller': PYTHONPATH=/home/circuitcoder1101/ros2_agv/build/ws2812b_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/circuitcoder1101/ros2_agv/install/ws2812b_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ws2812b_controller build --build-base /home/circuitcoder1101/ros2_agv/build/ws2812b_controller/build install --record /home/circuitcoder1101/ros2_agv/build/ws2812b_controller/install.log --single-version-externally-managed install_data
+[8.604s] running egg_info
+[8.612s] writing ../../build/ws2812b_controller/ws2812b_controller.egg-info/PKG-INFO
+[8.616s] writing dependency_links to ../../build/ws2812b_controller/ws2812b_controller.egg-info/dependency_links.txt
+[8.618s] writing entry points to ../../build/ws2812b_controller/ws2812b_controller.egg-info/entry_points.txt
+[8.620s] writing requirements to ../../build/ws2812b_controller/ws2812b_controller.egg-info/requires.txt
+[8.623s] writing top-level names to ../../build/ws2812b_controller/ws2812b_controller.egg-info/top_level.txt
+[8.640s] reading manifest file '../../build/ws2812b_controller/ws2812b_controller.egg-info/SOURCES.txt'
+[8.648s] writing manifest file '../../build/ws2812b_controller/ws2812b_controller.egg-info/SOURCES.txt'
+[8.648s] running build
+[8.649s] running build_py
+[8.651s] running install
+[8.653s] running install_lib
+[8.665s] running install_data
+[8.666s] running install_egg_info
+[8.682s] removing '/home/circuitcoder1101/ros2_agv/install/ws2812b_controller/lib/python3.10/site-packages/ws2812b_controller-0.0.0-py3.10.egg-info' (and everything under it)
+[8.686s] Copying ../../build/ws2812b_controller/ws2812b_controller.egg-info to /home/circuitcoder1101/ros2_agv/install/ws2812b_controller/lib/python3.10/site-packages/ws2812b_controller-0.0.0-py3.10.egg-info
+[8.705s] running install_scripts
+[8.888s] Installing ws2812b_node script to /home/circuitcoder1101/ros2_agv/install/ws2812b_controller/lib/ws2812b_controller
+[8.893s] writing list of installed files to '/home/circuitcoder1101/ros2_agv/build/ws2812b_controller/install.log'
+[9.256s] Invoked command in '/home/circuitcoder1101/ros2_agv/src/ws2812b_controller' returned '0': PYTHONPATH=/home/circuitcoder1101/ros2_agv/build/ws2812b_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/circuitcoder1101/ros2_agv/install/ws2812b_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ws2812b_controller build --build-base /home/circuitcoder1101/ros2_agv/build/ws2812b_controller/build install --record /home/circuitcoder1101/ros2_agv/build/ws2812b_controller/install.log --single-version-externally-managed install_data

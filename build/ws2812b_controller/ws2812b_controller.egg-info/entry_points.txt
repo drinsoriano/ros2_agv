@@ -1,0 +1,3 @@
+[console_scripts]
+ws2812b_node = ws2812b_controller.ws2812b_node:main
+

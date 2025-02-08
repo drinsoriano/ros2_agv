@@ -20,6 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            'ws2812b_node = ws2812b_controller.ws2812b_node:main',  # ✅ Add this line
         ],
     },
 )

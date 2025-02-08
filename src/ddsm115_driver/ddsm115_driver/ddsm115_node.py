@@ -1,7 +1,7 @@
 import rclpy
 from rclpy.node import Node
 import serial
-from std_msgs.msg import String
+from std_msgs.msg import String, Int32
 
 class DDSM115Driver(Node):
     def __init__(self):
@@ -25,9 +25,10 @@ class DDSM115Driver(Node):
             'motor_cmd',
             self.motor_callback,
             10)
-
+        
         # ROS2 Publisher for motor speed (for LED control)
         self.speed_publisher = self.create_publisher(Int32, 'motor_speed', 10)
+
 
     def motor_callback(self, msg):
         data = msg.data.strip()
@@ -36,6 +37,7 @@ class DDSM115Driver(Node):
         if data == "brake":
             self.send_brake_command()
             self.get_logger().info("Brake command received. Stopping all motors.")
+            self.speed_publisher.publish(Int32(data=0))  # Publish 0 speed when braking
             return
 
         # Otherwise, parse speed values
@@ -48,6 +50,11 @@ class DDSM115Driver(Node):
             self.send_velocity_command(3, left_speed)  # Left Rear
             self.send_velocity_command(4, -right_speed)  # Right Rear
 
+            # Publish average speed for LED controller
+            avg_speed = (abs(left_speed) + abs(right_speed)) // 2
+            self.speed_publisher.publish(Int32(data=avg_speed))
+            self.get_logger().info(f"Published motor speed: {avg_speed}")
+        
             self.get_logger().info(f"Received: Left={left_speed} RPM, Right={right_speed} RPM")
         except ValueError:
             self.get_logger().error(f"Invalid command format: {data}")

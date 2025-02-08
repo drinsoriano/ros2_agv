@@ -1,0 +1,115 @@
+[0.000000] (-) TimerEvent: {}
+[0.002396] (-) JobUnselected: {'identifier': 'ddsm115_driver'}
+[0.004763] (-) JobUnselected: {'identifier': 'keyboard_control'}
+[0.006361] (ws2812b_controller) JobQueued: {'identifier': 'ws2812b_controller', 'dependencies': OrderedDict()}
+[0.007780] (ws2812b_controller) JobStarted: {'identifier': 'ws2812b_controller'}
+[0.100090] (-) TimerEvent: {}
+[0.202375] (-) TimerEvent: {}
+[0.305209] (-) TimerEvent: {}
+[0.406505] (-) TimerEvent: {}
+[0.508002] (-) TimerEvent: {}
+[0.609234] (-) TimerEvent: {}
+[0.710507] (-) TimerEvent: {}
+[0.812936] (-) TimerEvent: {}
+[0.915416] (-) TimerEvent: {}
+[1.018272] (-) TimerEvent: {}
+[1.119714] (-) TimerEvent: {}
+[1.220906] (-) TimerEvent: {}
+[1.322344] (-) TimerEvent: {}
+[1.423800] (-) TimerEvent: {}
+[1.525074] (-) TimerEvent: {}
+[1.626632] (-) TimerEvent: {}
+[1.728150] (-) TimerEvent: {}
+[1.829348] (-) TimerEvent: {}
+[1.930754] (-) TimerEvent: {}
+[2.032375] (-) TimerEvent: {}
+[2.134276] (-) TimerEvent: {}
+[2.235967] (-) TimerEvent: {}
+[2.338402] (-) TimerEvent: {}
+[2.442060] (-) TimerEvent: {}
+[2.544657] (-) TimerEvent: {}
+[2.647476] (-) TimerEvent: {}
+[2.753875] (-) TimerEvent: {}
+[2.855799] (-) TimerEvent: {}
+[2.957410] (-) TimerEvent: {}
+[3.059488] (-) TimerEvent: {}
+[3.160920] (-) TimerEvent: {}
+[3.263316] (-) TimerEvent: {}
+[3.364938] (-) TimerEvent: {}
+[3.467141] (-) TimerEvent: {}
+[3.569222] (-) TimerEvent: {}
+[3.670974] (-) TimerEvent: {}
+[3.772122] (-) TimerEvent: {}
+[3.873328] (-) TimerEvent: {}
+[3.975401] (-) TimerEvent: {}
+[4.077192] (-) TimerEvent: {}
+[4.179114] (-) TimerEvent: {}
+[4.280298] (-) TimerEvent: {}
+[4.381855] (-) TimerEvent: {}
+[4.485170] (-) TimerEvent: {}
+[4.586610] (-) TimerEvent: {}
+[4.689300] (-) TimerEvent: {}
+[4.791121] (-) TimerEvent: {}
+[4.892518] (-) TimerEvent: {}
+[4.994826] (-) TimerEvent: {}
+[5.096097] (-) TimerEvent: {}
+[5.197598] (-) TimerEvent: {}
+[5.299102] (-) TimerEvent: {}
+[5.400337] (-) TimerEvent: {}
+[5.502631] (-) TimerEvent: {}
+[5.608186] (-) TimerEvent: {}
+[5.711417] (-) TimerEvent: {}
+[5.815151] (-) TimerEvent: {}
+[5.919050] (-) TimerEvent: {}
+[5.927478] (ws2812b_controller) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/ws2812b_controller', 'build', '--build-base', '/home/circuitcoder1101/ros2_agv/build/ws2812b_controller/build', 'install', '--record', '/home/circuitcoder1101/ros2_agv/build/ws2812b_controller/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/circuitcoder1101/ros2_agv/src/ws2812b_controller', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_PH:en', 'USER': 'circuitcoder1101', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/circuitcoder1101', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2910', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/circuitcoder1101/ros2_agv/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'circuitcoder1101', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'circuitcoder1101', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/circuitcoder1101/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/circuitcoder1101-desktop:@/tmp/.ICE-unix/1437,unix/circuitcoder1101-desktop:/tmp/.ICE-unix/1437', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/bbcb6f5b_a07c_43f7_b53d_8fca75e0e5d4', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.RIDX12', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.108', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/circuitcoder1101/ros2_agv/install/ws2812b_controller:/home/circuitcoder1101/ros2_agv/install/keyboard_control:/home/circuitcoder1101/ros2_agv/install/ddsm115_driver:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/circuitcoder1101/ros2_agv/build/ws2812b_controller', 'LC_ALL': 'en_US.UTF.8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/circuitcoder1101/ros2_agv/build/ws2812b_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/circuitcoder1101/ros2_agv/install/ws2812b_controller/lib/python3.10/site-packages:/home/circuitcoder1101/ros2_agv/install/ws2812b_controller/lib/python3.10/site-packages:/home/circuitcoder1101/ros2_agv/install/keyboard_control/lib/python3.10/site-packages:/home/circuitcoder1101/ros2_agv/install/ddsm115_driver/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[6.019553] (-) TimerEvent: {}
+[6.121866] (-) TimerEvent: {}
+[6.224118] (-) TimerEvent: {}
+[6.325759] (-) TimerEvent: {}
+[6.427324] (-) TimerEvent: {}
+[6.528806] (-) TimerEvent: {}
+[6.630275] (-) TimerEvent: {}
+[6.732242] (-) TimerEvent: {}
+[6.833870] (-) TimerEvent: {}
+[6.935441] (-) TimerEvent: {}
+[7.037343] (-) TimerEvent: {}
+[7.141087] (-) TimerEvent: {}
+[7.245257] (-) TimerEvent: {}
+[7.346843] (-) TimerEvent: {}
+[7.449015] (-) TimerEvent: {}
+[7.551410] (-) TimerEvent: {}
+[7.652615] (-) TimerEvent: {}
+[7.753731] (-) TimerEvent: {}
+[7.855253] (-) TimerEvent: {}
+[7.957894] (-) TimerEvent: {}
+[8.059266] (-) TimerEvent: {}
+[8.160964] (-) TimerEvent: {}
+[8.261795] (ws2812b_controller) StdoutLine: {'line': b'running egg_info\n'}
+[8.263577] (-) TimerEvent: {}
+[8.269091] (ws2812b_controller) StdoutLine: {'line': b'writing ../../build/ws2812b_controller/ws2812b_controller.egg-info/PKG-INFO\n'}
+[8.271842] (ws2812b_controller) StdoutLine: {'line': b'writing dependency_links to ../../build/ws2812b_controller/ws2812b_controller.egg-info/dependency_links.txt\n'}
+[8.273283] (ws2812b_controller) StdoutLine: {'line': b'writing entry points to ../../build/ws2812b_controller/ws2812b_controller.egg-info/entry_points.txt\n'}
+[8.275178] (ws2812b_controller) StdoutLine: {'line': b'writing requirements to ../../build/ws2812b_controller/ws2812b_controller.egg-info/requires.txt\n'}
+[8.277557] (ws2812b_controller) StdoutLine: {'line': b'writing top-level names to ../../build/ws2812b_controller/ws2812b_controller.egg-info/top_level.txt\n'}
+[8.290784] (ws2812b_controller) StdoutLine: {'line': b"reading manifest file '../../build/ws2812b_controller/ws2812b_controller.egg-info/SOURCES.txt'\n"}
+[8.297869] (ws2812b_controller) StdoutLine: {'line': b"writing manifest file '../../build/ws2812b_controller/ws2812b_controller.egg-info/SOURCES.txt'\n"}
+[8.299837] (ws2812b_controller) StdoutLine: {'line': b'running build\n'}
+[8.301591] (ws2812b_controller) StdoutLine: {'line': b'running build_py\n'}
+[8.303929] (ws2812b_controller) StdoutLine: {'line': b'running install\n'}
+[8.306088] (ws2812b_controller) StdoutLine: {'line': b'running install_lib\n'}
+[8.322362] (ws2812b_controller) StdoutLine: {'line': b'running install_data\n'}
+[8.324024] (ws2812b_controller) StdoutLine: {'line': b'running install_egg_info\n'}
+[8.339535] (ws2812b_controller) StdoutLine: {'line': b"removing '/home/circuitcoder1101/ros2_agv/install/ws2812b_controller/lib/python3.10/site-packages/ws2812b_controller-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[8.342916] (ws2812b_controller) StdoutLine: {'line': b'Copying ../../build/ws2812b_controller/ws2812b_controller.egg-info to /home/circuitcoder1101/ros2_agv/install/ws2812b_controller/lib/python3.10/site-packages/ws2812b_controller-0.0.0-py3.10.egg-info\n'}
+[8.354161] (ws2812b_controller) StdoutLine: {'line': b'running install_scripts\n'}
+[8.363930] (-) TimerEvent: {}
+[8.465298] (-) TimerEvent: {}
+[8.513074] (ws2812b_controller) StdoutLine: {'line': b"writing list of installed files to '/home/circuitcoder1101/ros2_agv/build/ws2812b_controller/install.log'\n"}
+[8.566065] (-) TimerEvent: {}
+[8.670454] (-) TimerEvent: {}
+[8.773957] (-) TimerEvent: {}
+[8.865737] (ws2812b_controller) CommandEnded: {'returncode': 0}
+[8.873997] (-) TimerEvent: {}
+[8.975832] (-) TimerEvent: {}
+[8.978179] (ws2812b_controller) JobEnded: {'identifier': 'ws2812b_controller', 'rc': 0}
+[8.985374] (-) EventReactorShutdown: {}

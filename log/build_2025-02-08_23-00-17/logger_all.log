@@ -1,0 +1,149 @@
+[0.825s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'ws2812b_controller']
+[0.826s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['ws2812b_controller'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff8be67760>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff8bfa4af0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff8bfa4af0>>)
+[2.344s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.345s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.346s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.346s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.346s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[2.347s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.347s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/circuitcoder1101/ros2_agv'
+[2.348s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[2.349s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[2.349s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[2.350s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[2.350s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[2.350s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[2.351s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[2.351s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[2.352s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[2.442s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[2.443s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[2.443s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[2.444s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[2.444s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[2.445s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[2.445s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[2.446s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[2.447s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[2.449s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[2.450s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[2.451s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[2.455s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[2.456s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[2.459s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[2.461s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[2.462s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[2.462s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[2.462s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[2.463s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[2.463s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[2.463s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[2.464s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[2.465s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[2.466s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[2.466s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[2.467s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[2.467s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[2.468s] Level 1:colcon.colcon_core.package_identification:_identify(src/ddsm115_driver) by extensions ['ignore', 'ignore_ament_install']
+[2.468s] Level 1:colcon.colcon_core.package_identification:_identify(src/ddsm115_driver) by extension 'ignore'
+[2.469s] Level 1:colcon.colcon_core.package_identification:_identify(src/ddsm115_driver) by extension 'ignore_ament_install'
+[2.469s] Level 1:colcon.colcon_core.package_identification:_identify(src/ddsm115_driver) by extensions ['colcon_pkg']
+[2.469s] Level 1:colcon.colcon_core.package_identification:_identify(src/ddsm115_driver) by extension 'colcon_pkg'
+[2.469s] Level 1:colcon.colcon_core.package_identification:_identify(src/ddsm115_driver) by extensions ['colcon_meta']
+[2.470s] Level 1:colcon.colcon_core.package_identification:_identify(src/ddsm115_driver) by extension 'colcon_meta'
+[2.470s] Level 1:colcon.colcon_core.package_identification:_identify(src/ddsm115_driver) by extensions ['ros']
+[2.470s] Level 1:colcon.colcon_core.package_identification:_identify(src/ddsm115_driver) by extension 'ros'
+[2.483s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ddsm115_driver' with type 'ros.ament_python' and name 'ddsm115_driver'
+[2.484s] Level 1:colcon.colcon_core.package_identification:_identify(src/keyboard_control) by extensions ['ignore', 'ignore_ament_install']
+[2.485s] Level 1:colcon.colcon_core.package_identification:_identify(src/keyboard_control) by extension 'ignore'
+[2.486s] Level 1:colcon.colcon_core.package_identification:_identify(src/keyboard_control) by extension 'ignore_ament_install'
+[2.486s] Level 1:colcon.colcon_core.package_identification:_identify(src/keyboard_control) by extensions ['colcon_pkg']
+[2.486s] Level 1:colcon.colcon_core.package_identification:_identify(src/keyboard_control) by extension 'colcon_pkg'
+[2.486s] Level 1:colcon.colcon_core.package_identification:_identify(src/keyboard_control) by extensions ['colcon_meta']
+[2.487s] Level 1:colcon.colcon_core.package_identification:_identify(src/keyboard_control) by extension 'colcon_meta'
+[2.487s] Level 1:colcon.colcon_core.package_identification:_identify(src/keyboard_control) by extensions ['ros']
+[2.487s] Level 1:colcon.colcon_core.package_identification:_identify(src/keyboard_control) by extension 'ros'
+[2.491s] DEBUG:colcon.colcon_core.package_identification:Package 'src/keyboard_control' with type 'ros.ament_python' and name 'keyboard_control'
+[2.492s] Level 1:colcon.colcon_core.package_identification:_identify(src/ws2812b_controller) by extensions ['ignore', 'ignore_ament_install']
+[2.493s] Level 1:colcon.colcon_core.package_identification:_identify(src/ws2812b_controller) by extension 'ignore'
+[2.493s] Level 1:colcon.colcon_core.package_identification:_identify(src/ws2812b_controller) by extension 'ignore_ament_install'
+[2.494s] Level 1:colcon.colcon_core.package_identification:_identify(src/ws2812b_controller) by extensions ['colcon_pkg']
+[2.494s] Level 1:colcon.colcon_core.package_identification:_identify(src/ws2812b_controller) by extension 'colcon_pkg'
+[2.494s] Level 1:colcon.colcon_core.package_identification:_identify(src/ws2812b_controller) by extensions ['colcon_meta']
+[2.494s] Level 1:colcon.colcon_core.package_identification:_identify(src/ws2812b_controller) by extension 'colcon_meta'
+[2.494s] Level 1:colcon.colcon_core.package_identification:_identify(src/ws2812b_controller) by extensions ['ros']
+[2.495s] Level 1:colcon.colcon_core.package_identification:_identify(src/ws2812b_controller) by extension 'ros'
+[2.502s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ws2812b_controller' with type 'ros.ament_python' and name 'ws2812b_controller'
+[2.504s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.505s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.506s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.506s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.506s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.646s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'ddsm115_driver' in 'src/ddsm115_driver'
+[2.646s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'keyboard_control' in 'src/keyboard_control'
+[2.650s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[2.650s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[2.663s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/circuitcoder1101/ros2_agv/install
+[2.675s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 271 installed packages in /opt/ros/humble
+[2.691s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[3.057s] Level 5:colcon.colcon_core.verb:set package 'ws2812b_controller' build argument 'cmake_args' from command line to 'None'
+[3.057s] Level 5:colcon.colcon_core.verb:set package 'ws2812b_controller' build argument 'cmake_target' from command line to 'None'
+[3.057s] Level 5:colcon.colcon_core.verb:set package 'ws2812b_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.058s] Level 5:colcon.colcon_core.verb:set package 'ws2812b_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[3.058s] Level 5:colcon.colcon_core.verb:set package 'ws2812b_controller' build argument 'cmake_clean_first' from command line to 'False'
+[3.058s] Level 5:colcon.colcon_core.verb:set package 'ws2812b_controller' build argument 'cmake_force_configure' from command line to 'False'
+[3.058s] Level 5:colcon.colcon_core.verb:set package 'ws2812b_controller' build argument 'ament_cmake_args' from command line to 'None'
+[3.058s] Level 5:colcon.colcon_core.verb:set package 'ws2812b_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[3.058s] Level 5:colcon.colcon_core.verb:set package 'ws2812b_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.058s] DEBUG:colcon.colcon_core.verb:Building package 'ws2812b_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/circuitcoder1101/ros2_agv/build/ws2812b_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/circuitcoder1101/ros2_agv/install/ws2812b_controller', 'merge_install': False, 'path': '/home/circuitcoder1101/ros2_agv/src/ws2812b_controller', 'symlink_install': False, 'test_result_base': None}
+[3.059s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[3.067s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[3.069s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/circuitcoder1101/ros2_agv/src/ws2812b_controller' with build type 'ament_python'
+[3.071s] Level 1:colcon.colcon_core.shell:create_environment_hook('ws2812b_controller', 'ament_prefix_path')
+[3.101s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[3.103s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/circuitcoder1101/ros2_agv/install/ws2812b_controller/share/ws2812b_controller/hook/ament_prefix_path.ps1'
+[3.108s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/circuitcoder1101/ros2_agv/install/ws2812b_controller/share/ws2812b_controller/hook/ament_prefix_path.dsv'
+[3.116s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/circuitcoder1101/ros2_agv/install/ws2812b_controller/share/ws2812b_controller/hook/ament_prefix_path.sh'
+[3.125s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.125s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.660s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/circuitcoder1101/ros2_agv/src/ws2812b_controller'
+[5.661s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.662s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[9.009s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/circuitcoder1101/ros2_agv/src/ws2812b_controller': PYTHONPATH=/home/circuitcoder1101/ros2_agv/build/ws2812b_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/circuitcoder1101/ros2_agv/install/ws2812b_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ws2812b_controller build --build-base /home/circuitcoder1101/ros2_agv/build/ws2812b_controller/build install --record /home/circuitcoder1101/ros2_agv/build/ws2812b_controller/install.log --single-version-externally-managed install_data
+[11.934s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/circuitcoder1101/ros2_agv/src/ws2812b_controller' returned '0': PYTHONPATH=/home/circuitcoder1101/ros2_agv/build/ws2812b_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/circuitcoder1101/ros2_agv/install/ws2812b_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ws2812b_controller build --build-base /home/circuitcoder1101/ros2_agv/build/ws2812b_controller/build install --record /home/circuitcoder1101/ros2_agv/build/ws2812b_controller/install.log --single-version-externally-managed install_data
+[11.952s] Level 1:colcon.colcon_core.environment:checking '/home/circuitcoder1101/ros2_agv/install/ws2812b_controller' for CMake module files
+[11.955s] Level 1:colcon.colcon_core.environment:checking '/home/circuitcoder1101/ros2_agv/install/ws2812b_controller' for CMake config files
+[11.961s] Level 1:colcon.colcon_core.environment:checking '/home/circuitcoder1101/ros2_agv/install/ws2812b_controller/lib'
+[11.963s] Level 1:colcon.colcon_core.environment:checking '/home/circuitcoder1101/ros2_agv/install/ws2812b_controller/bin'
+[11.963s] Level 1:colcon.colcon_core.environment:checking '/home/circuitcoder1101/ros2_agv/install/ws2812b_controller/lib/pkgconfig/ws2812b_controller.pc'
+[11.965s] Level 1:colcon.colcon_core.environment:checking '/home/circuitcoder1101/ros2_agv/install/ws2812b_controller/lib/python3.10/site-packages'
+[11.966s] Level 1:colcon.colcon_core.shell:create_environment_hook('ws2812b_controller', 'pythonpath')
+[11.968s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/circuitcoder1101/ros2_agv/install/ws2812b_controller/share/ws2812b_controller/hook/pythonpath.ps1'
+[11.975s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/circuitcoder1101/ros2_agv/install/ws2812b_controller/share/ws2812b_controller/hook/pythonpath.dsv'
+[11.980s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/circuitcoder1101/ros2_agv/install/ws2812b_controller/share/ws2812b_controller/hook/pythonpath.sh'
+[11.991s] Level 1:colcon.colcon_core.environment:checking '/home/circuitcoder1101/ros2_agv/install/ws2812b_controller/bin'
+[11.992s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ws2812b_controller)
+[11.996s] INFO:colcon.colcon_core.shell:Creating package script '/home/circuitcoder1101/ros2_agv/install/ws2812b_controller/share/ws2812b_controller/package.ps1'
+[12.009s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/circuitcoder1101/ros2_agv/install/ws2812b_controller/share/ws2812b_controller/package.dsv'
+[12.019s] INFO:colcon.colcon_core.shell:Creating package script '/home/circuitcoder1101/ros2_agv/install/ws2812b_controller/share/ws2812b_controller/package.sh'
+[12.025s] INFO:colcon.colcon_core.shell:Creating package script '/home/circuitcoder1101/ros2_agv/install/ws2812b_controller/share/ws2812b_controller/package.bash'
+[12.033s] INFO:colcon.colcon_core.shell:Creating package script '/home/circuitcoder1101/ros2_agv/install/ws2812b_controller/share/ws2812b_controller/package.zsh'
+[12.038s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/circuitcoder1101/ros2_agv/install/ws2812b_controller/share/colcon-core/packages/ws2812b_controller)
+[12.042s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[12.044s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[12.045s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[12.046s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[12.112s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[12.113s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[12.114s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[12.237s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[12.238s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/circuitcoder1101/ros2_agv/install/local_setup.ps1'
+[12.247s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/circuitcoder1101/ros2_agv/install/_local_setup_util_ps1.py'
+[12.261s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/circuitcoder1101/ros2_agv/install/setup.ps1'
+[12.278s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/circuitcoder1101/ros2_agv/install/local_setup.sh'
+[12.283s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/circuitcoder1101/ros2_agv/install/_local_setup_util_sh.py'
+[12.289s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/circuitcoder1101/ros2_agv/install/setup.sh'
+[12.298s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/circuitcoder1101/ros2_agv/install/local_setup.bash'
+[12.303s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/circuitcoder1101/ros2_agv/install/setup.bash'
+[12.313s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/circuitcoder1101/ros2_agv/install/local_setup.zsh'
+[12.317s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/circuitcoder1101/ros2_agv/install/setup.zsh'
