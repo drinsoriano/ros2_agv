@@ -1,0 +1,86 @@
+[0.000000] (-) TimerEvent: {}
+[0.000839] (-) JobUnselected: {'identifier': 'ddsm115_driver'}
+[0.001443] (keyboard_control) JobQueued: {'identifier': 'keyboard_control', 'dependencies': OrderedDict()}
+[0.002364] (keyboard_control) JobStarted: {'identifier': 'keyboard_control'}
+[0.098939] (-) TimerEvent: {}
+[0.199706] (-) TimerEvent: {}
+[0.300559] (-) TimerEvent: {}
+[0.401381] (-) TimerEvent: {}
+[0.502111] (-) TimerEvent: {}
+[0.602897] (-) TimerEvent: {}
+[0.703674] (-) TimerEvent: {}
+[0.804432] (-) TimerEvent: {}
+[0.905192] (-) TimerEvent: {}
+[1.005878] (-) TimerEvent: {}
+[1.106576] (-) TimerEvent: {}
+[1.207453] (-) TimerEvent: {}
+[1.309555] (-) TimerEvent: {}
+[1.412195] (-) TimerEvent: {}
+[1.513157] (-) TimerEvent: {}
+[1.614415] (-) TimerEvent: {}
+[1.715387] (-) TimerEvent: {}
+[1.816176] (-) TimerEvent: {}
+[1.916901] (-) TimerEvent: {}
+[2.017607] (-) TimerEvent: {}
+[2.118310] (-) TimerEvent: {}
+[2.219011] (-) TimerEvent: {}
+[2.319774] (-) TimerEvent: {}
+[2.420506] (-) TimerEvent: {}
+[2.521233] (-) TimerEvent: {}
+[2.621994] (-) TimerEvent: {}
+[2.722700] (-) TimerEvent: {}
+[2.823559] (-) TimerEvent: {}
+[2.897804] (keyboard_control) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/keyboard_control', 'build', '--build-base', '/home/circuitcoder1101/ros2_agv/build/keyboard_control/build', 'install', '--record', '/home/circuitcoder1101/ros2_agv/build/keyboard_control/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/circuitcoder1101/ros2_agv/src/keyboard_control', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_PH:en', 'USER': 'circuitcoder1101', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/circuitcoder1101', 'OLDPWD': '/home/circuitcoder1101/ros2_agv/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2910', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'circuitcoder1101', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'circuitcoder1101', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/circuitcoder1101/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/circuitcoder1101-desktop:@/tmp/.ICE-unix/1437,unix/circuitcoder1101-desktop:/tmp/.ICE-unix/1437', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/2bd13fd6_45b9_42bf_8d97_35a2d9ea80f1', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.RIDX12', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.108', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/circuitcoder1101/ros2_agv/build/keyboard_control', 'LC_ALL': 'en_US.UTF.8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/circuitcoder1101/ros2_agv/build/keyboard_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/circuitcoder1101/ros2_agv/install/keyboard_control/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[2.923715] (-) TimerEvent: {}
+[3.024547] (-) TimerEvent: {}
+[3.125538] (-) TimerEvent: {}
+[3.226572] (-) TimerEvent: {}
+[3.327317] (-) TimerEvent: {}
+[3.428008] (-) TimerEvent: {}
+[3.528701] (-) TimerEvent: {}
+[3.629400] (-) TimerEvent: {}
+[3.730158] (-) TimerEvent: {}
+[3.830855] (-) TimerEvent: {}
+[3.931588] (-) TimerEvent: {}
+[4.023138] (keyboard_control) StdoutLine: {'line': b'running egg_info\n'}
+[4.025644] (keyboard_control) StdoutLine: {'line': b'creating ../../build/keyboard_control/keyboard_control.egg-info\n'}
+[4.026532] (keyboard_control) StdoutLine: {'line': b'writing ../../build/keyboard_control/keyboard_control.egg-info/PKG-INFO\n'}
+[4.027798] (keyboard_control) StdoutLine: {'line': b'writing dependency_links to ../../build/keyboard_control/keyboard_control.egg-info/dependency_links.txt\n'}
+[4.029256] (keyboard_control) StdoutLine: {'line': b'writing entry points to ../../build/keyboard_control/keyboard_control.egg-info/entry_points.txt\n'}
+[4.029969] (keyboard_control) StdoutLine: {'line': b'writing requirements to ../../build/keyboard_control/keyboard_control.egg-info/requires.txt\n'}
+[4.030549] (keyboard_control) StdoutLine: {'line': b'writing top-level names to ../../build/keyboard_control/keyboard_control.egg-info/top_level.txt\n'}
+[4.031628] (keyboard_control) StdoutLine: {'line': b"writing manifest file '../../build/keyboard_control/keyboard_control.egg-info/SOURCES.txt'\n"}
+[4.032126] (-) TimerEvent: {}
+[4.038449] (keyboard_control) StdoutLine: {'line': b"reading manifest file '../../build/keyboard_control/keyboard_control.egg-info/SOURCES.txt'\n"}
+[4.041785] (keyboard_control) StdoutLine: {'line': b"writing manifest file '../../build/keyboard_control/keyboard_control.egg-info/SOURCES.txt'\n"}
+[4.042521] (keyboard_control) StdoutLine: {'line': b'running build\n'}
+[4.043043] (keyboard_control) StdoutLine: {'line': b'running build_py\n'}
+[4.043669] (keyboard_control) StdoutLine: {'line': b'creating /home/circuitcoder1101/ros2_agv/build/keyboard_control/build\n'}
+[4.044321] (keyboard_control) StdoutLine: {'line': b'creating /home/circuitcoder1101/ros2_agv/build/keyboard_control/build/lib\n'}
+[4.044843] (keyboard_control) StdoutLine: {'line': b'creating /home/circuitcoder1101/ros2_agv/build/keyboard_control/build/lib/keyboard_control\n'}
+[4.045222] (keyboard_control) StdoutLine: {'line': b'copying keyboard_control/__init__.py -> /home/circuitcoder1101/ros2_agv/build/keyboard_control/build/lib/keyboard_control\n'}
+[4.045742] (keyboard_control) StdoutLine: {'line': b'copying keyboard_control/keyboard_control_node.py -> /home/circuitcoder1101/ros2_agv/build/keyboard_control/build/lib/keyboard_control\n'}
+[4.046605] (keyboard_control) StdoutLine: {'line': b'running install\n'}
+[4.047956] (keyboard_control) StdoutLine: {'line': b'running install_lib\n'}
+[4.051039] (keyboard_control) StdoutLine: {'line': b'creating /home/circuitcoder1101/ros2_agv/install/keyboard_control/lib/python3.10/site-packages/keyboard_control\n'}
+[4.051803] (keyboard_control) StdoutLine: {'line': b'copying /home/circuitcoder1101/ros2_agv/build/keyboard_control/build/lib/keyboard_control/__init__.py -> /home/circuitcoder1101/ros2_agv/install/keyboard_control/lib/python3.10/site-packages/keyboard_control\n'}
+[4.052420] (keyboard_control) StdoutLine: {'line': b'copying /home/circuitcoder1101/ros2_agv/build/keyboard_control/build/lib/keyboard_control/keyboard_control_node.py -> /home/circuitcoder1101/ros2_agv/install/keyboard_control/lib/python3.10/site-packages/keyboard_control\n'}
+[4.054932] (keyboard_control) StdoutLine: {'line': b'byte-compiling /home/circuitcoder1101/ros2_agv/install/keyboard_control/lib/python3.10/site-packages/keyboard_control/__init__.py to __init__.cpython-310.pyc\n'}
+[4.056451] (keyboard_control) StdoutLine: {'line': b'byte-compiling /home/circuitcoder1101/ros2_agv/install/keyboard_control/lib/python3.10/site-packages/keyboard_control/keyboard_control_node.py to keyboard_control_node.cpython-310.pyc\n'}
+[4.060903] (keyboard_control) StdoutLine: {'line': b'running install_data\n'}
+[4.062076] (keyboard_control) StdoutLine: {'line': b'creating /home/circuitcoder1101/ros2_agv/install/keyboard_control/share/ament_index\n'}
+[4.063072] (keyboard_control) StdoutLine: {'line': b'creating /home/circuitcoder1101/ros2_agv/install/keyboard_control/share/ament_index/resource_index\n'}
+[4.064172] (keyboard_control) StdoutLine: {'line': b'creating /home/circuitcoder1101/ros2_agv/install/keyboard_control/share/ament_index/resource_index/packages\n'}
+[4.065374] (keyboard_control) StdoutLine: {'line': b'copying resource/keyboard_control -> /home/circuitcoder1101/ros2_agv/install/keyboard_control/share/ament_index/resource_index/packages\n'}
+[4.066164] (keyboard_control) StdoutLine: {'line': b'copying package.xml -> /home/circuitcoder1101/ros2_agv/install/keyboard_control/share/keyboard_control\n'}
+[4.067817] (keyboard_control) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.074847] (keyboard_control) StdoutLine: {'line': b'Copying ../../build/keyboard_control/keyboard_control.egg-info to /home/circuitcoder1101/ros2_agv/install/keyboard_control/lib/python3.10/site-packages/keyboard_control-0.0.0-py3.10.egg-info\n'}
+[4.080480] (keyboard_control) StdoutLine: {'line': b'running install_scripts\n'}
+[4.132405] (-) TimerEvent: {}
+[4.162396] (keyboard_control) StdoutLine: {'line': b'Installing keyboard_control_node script to /home/circuitcoder1101/ros2_agv/install/keyboard_control/lib/keyboard_control\n'}
+[4.164371] (keyboard_control) StdoutLine: {'line': b"writing list of installed files to '/home/circuitcoder1101/ros2_agv/build/keyboard_control/install.log'\n"}
+[4.232694] (-) TimerEvent: {}
+[4.297585] (keyboard_control) CommandEnded: {'returncode': 0}
+[4.334226] (-) TimerEvent: {}
+[4.348039] (keyboard_control) JobEnded: {'identifier': 'keyboard_control', 'rc': 0}
+[4.351101] (-) EventReactorShutdown: {}

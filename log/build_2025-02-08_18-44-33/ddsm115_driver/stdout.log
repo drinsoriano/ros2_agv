@@ -1,0 +1,23 @@
+running egg_info
+writing ../../build/ddsm115_driver/ddsm115_driver.egg-info/PKG-INFO
+writing dependency_links to ../../build/ddsm115_driver/ddsm115_driver.egg-info/dependency_links.txt
+writing entry points to ../../build/ddsm115_driver/ddsm115_driver.egg-info/entry_points.txt
+writing requirements to ../../build/ddsm115_driver/ddsm115_driver.egg-info/requires.txt
+writing top-level names to ../../build/ddsm115_driver/ddsm115_driver.egg-info/top_level.txt
+reading manifest file '../../build/ddsm115_driver/ddsm115_driver.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/ddsm115_driver/ddsm115_driver.egg-info/SOURCES.txt'
+running build
+running build_py
+copying ddsm115_driver/ddsm115_node.py -> /home/circuitcoder1101/ros2_agv/build/ddsm115_driver/build/lib/ddsm115_driver
+running install
+running install_lib
+copying /home/circuitcoder1101/ros2_agv/build/ddsm115_driver/build/lib/ddsm115_driver/ddsm115_node.py -> /home/circuitcoder1101/ros2_agv/install/ddsm115_driver/lib/python3.10/site-packages/ddsm115_driver
+byte-compiling /home/circuitcoder1101/ros2_agv/install/ddsm115_driver/lib/python3.10/site-packages/ddsm115_driver/ddsm115_node.py to ddsm115_node.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/circuitcoder1101/ros2_agv/install/ddsm115_driver/lib/python3.10/site-packages/ddsm115_driver-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/ddsm115_driver/ddsm115_driver.egg-info to /home/circuitcoder1101/ros2_agv/install/ddsm115_driver/lib/python3.10/site-packages/ddsm115_driver-0.0.0-py3.10.egg-info
+running install_scripts
+Installing ddsm115_node script to /home/circuitcoder1101/ros2_agv/install/ddsm115_driver/lib/ddsm115_driver
+writing list of installed files to '/home/circuitcoder1101/ros2_agv/build/ddsm115_driver/install.log'

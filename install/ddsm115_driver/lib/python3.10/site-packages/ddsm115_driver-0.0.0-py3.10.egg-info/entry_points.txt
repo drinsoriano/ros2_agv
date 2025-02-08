@@ -1,0 +1,3 @@
+[console_scripts]
+ddsm115_node = ddsm115_driver.ddsm115_node:main
+

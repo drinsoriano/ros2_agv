@@ -1,0 +1,6 @@
+source;share/ddsm115_driver/hook/pythonpath.ps1
+source;share/ddsm115_driver/hook/pythonpath.dsv
+source;share/ddsm115_driver/hook/pythonpath.sh
+source;share/ddsm115_driver/hook/ament_prefix_path.ps1
+source;share/ddsm115_driver/hook/ament_prefix_path.dsv
+source;share/ddsm115_driver/hook/ament_prefix_path.sh
