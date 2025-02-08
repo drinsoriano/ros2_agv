@@ -26,6 +26,9 @@ class DDSM115Driver(Node):
             self.motor_callback,
             10)
 
+        # ROS2 Publisher for motor speed (for LED control)
+        self.speed_publisher = self.create_publisher(Int32, 'motor_speed', 10)
+
     def motor_callback(self, msg):
         data = msg.data.strip()
 
